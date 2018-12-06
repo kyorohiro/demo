@@ -68,5 +68,58 @@
                 </div>
         </div>
 </div>
+
+
+
+
+<div class="container" style="height:200px;">
+</div>
+
+
+
+
+<div class="container" style="margin-top:20px;min-height:400px;">
+        <div class="col-12">
+                <div class="card-header" style="text-align: center;">よくある質問</div>
+
+                <div class="row">
+                  <div class="col-sm-4">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-4">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+        </div>
+</div>
+
+
+
+<div class="container" style="height:200px;">
+</div>
+
     
 @endsection
