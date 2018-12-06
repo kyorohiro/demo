@@ -5,12 +5,13 @@
     style="background:url(/images/header-bg-beach.jpg) no-repeat center center;height:400px;background-size:cover;">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-4" style="margin-top:80px;" align=center>
+            <div class="col-md-6" style="margin-top:80px;" align=center>
                   <div style="color:#FFFFFF;font-size:42px;font-weight: bold;text-shadow: 1px 1px 1px #222222;">繋がるを繋げる</div>
             </div>
         </div>
     </div>
 </div>
+
 <div class="container-fluid" style="background:#EEEEF3; min-height:200px">
     <div class="container">
         <div class="row justify-content-center" style="background:#EEEEF3;">
@@ -21,13 +22,16 @@
         <div class="row">
             <div class="col-sm-2"></div>
             <div class="col-sm-12"  align=center>
-                <div class="request-button">依頼したい</div>
-                <div class="receive-button">受注したい</div>
+                <a href="{{ route('register') }}" class="request-button">依頼したい</a>
+                <a href="{{ route('register') }}" class="receive-button">受注したい</a>
             </div>
         </div>
     </div>
 </div>
 
+
+<div class="container" style="height:200px;">
+</div>
 <div class="container" style="margin-top:20px;">
         <div class="col-12">
                 <div class="card-header" style="text-align: center;">新着の仕事</div>
