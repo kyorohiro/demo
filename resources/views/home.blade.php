@@ -14,14 +14,28 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="card">
-                    <div class="card-header">Profile</div>
+                    <div class="card-header">登録情報</div>
                     <div class="card-body">
-                        {{$name}} <br>
-                        {{$email}}<br>
+                        NAME : {{$name}} <br>
+                        EMAIL: {{$email}}<br>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">プロフィール</div>
+                    <div class="card-body">
+                        adfasdfasdfasdfasdfasdfasdf<br>
+                        adfasdfasdfasdfasdfasdfasdf<br>
+                        
+                        adfasdfasdfasdfasdfasdfasdf<br>
+                        adfasdfasdfasdfasdfasdfasdf<br>
+                        adfasdfasdfasdfasdfasdfasdf<br>
                     </div>
                 </div>
             </div>
         </div>
+
     </div>
     <br>
     <br>
