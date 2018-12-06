@@ -15,6 +15,7 @@ class CreateUserinfosTable extends Migration
     {
         Schema::create('userinfos', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer("user_id")->unsigned();
             $table->string("firstname",126);
             $table->string("lastname",126);
             $table->string("zip_code",32);
